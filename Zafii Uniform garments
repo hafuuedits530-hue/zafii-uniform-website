@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Zafii Uniform Garments</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body{font-family:Arial; margin:0; background:#f7f7f7;}
-        header{background:#0b3c5d; color:white; padding:20px; text-align:center;}
-        .hero{background:#1d2731; color:white; padding:40px; text-align:center;}
-        .section{padding:20px;}
-        .card{background:white; padding:15px; margin:10px; border-radius:8px; box-shadow:0 0 5px #ccc;}
-        .btn{background:#25D366; color:white; padding:10px 15px; text-decoration:none; border-radius:5px; display:inline-block;}
-        footer{background:#0b3c5d; color:white; padding:15px; text-align:center;}
-    </style>
+<title>Zafii Uniform Garments</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{margin:0;font-family:'Segoe UI',Arial;background:#f1f5f9;}
+header{background:#0f172a;color:#fff;padding:25px;text-align:center;}
+.hero{background:#38bdf8;color:#003049;padding:35px;text-align:center;}
+.products{padding:20px;}
+.contact{background:#fde68a;padding:20px;}
+.card{background:#fff;padding:20px;margin:12px;border-radius:14px;box-shadow:0 6px 12px rgba(0,0,0,0.15);}
+.btn{background:#22c55e;color:#fff;padding:7px 14px;text-decoration:none;border-radius:20px;display:inline-block;margin:3px;}
+footer{background:#0f172a;color:white;padding:15px;text-align:center;}
+</style>
+
+<script>
+window.onload=function(){
+ alert("Welcome to Zafii Uniform Garments\n\nSchool & College Uniform Specialists");
+}
+</script>
 </head>
+
 <body>
 
 <header>
-    <img src="logo.png" style="width:120px;">
-    <h1>Zafii Uniform Garments</h1>
-    <p>School & College Uniform Specialists</p>
+<img src="logo.png" width="120"><br>
+<h1>Zafii Uniform Garments</h1>
+<p>School & College Uniform Specialists</p>
 </header>
 
 <div class="hero">
-    <h2>Quality School & College Uniforms</h2>
-    <p>All sizes available • Best stitching • Affordable prices</p>
-    <a class="btn" href="https://wa.me/923704452235">Order on WhatsApp</a>
+<h2>Order Quality Uniforms Online</h2>
+<a class="btn" href="https://wa.me/923704452235">Order on WhatsApp</a>
 </div>
 
-<div class="section">
-    <h2>Our Uniforms</h2>
+<div class="products">
 
-    <div class="card">
-Boys School Shirt – Rs 750 <br>
-<a class="btn" href="https://wa.me/923704452235?text=I%20want%20to%20order%20Boys%20School%20Shirt%20Rs%20750">Order on WhatsApp</a>
+<div class="card">
+<h3>Boys School Shirt – Rs 750</h3>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Boys%20School%20Shirt%20Size%2022%20Rs%20750">22</a>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Boys%20School%20Shirt%20Size%2024%20Rs%20750">24</a>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Boys%20School%20Shirt%20Size%2026%20Rs%20750">26</a>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Boys%20School%20Shirt%20Size%2028%20Rs%20750">28</a>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Boys%20School%20Shirt%20Size%2030%20Rs%20750">30</a>
 </div>
 
 <div class="card">
-Girls School Shirt – Rs 700 <br>
-<a class="btn" href="https://wa.me/923704452235?text=I%20want%20to%20order%20Girls%20School%20Shirt%20Rs%20700">Order on WhatsApp</a>
+<h3>Girls School Shirt – Rs 700</h3>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Girls%20School%20Shirt%20Size%2022%20Rs%20700">22</a>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Girls%20School%20Shirt%20Size%2024%20Rs%20700">24</a>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Girls%20School%20Shirt%20Size%2026%20Rs%20700">26</a>
 </div>
 
 <div class="card">
-School Trousers – Rs 800 <br>
-<a class="btn" href="https://wa.me/923704452235?text=I%20want%20to%20order%20School%20Trousers%20Rs%20800">Order on WhatsApp</a>
+<h3>Blazer – Rs 2000</h3>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Blazer%20Size%2030%20Rs%202000">30</a>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Blazer%20Size%2032%20Rs%202000">32</a>
+<a class="btn" href="https://wa.me/923704452235?text=Order%20Blazer%20Size%2034%20Rs%202000">34</a>
 </div>
 
-<div class="card">
-College Shirt – Rs 900 <br>
-<a class="btn" href="https://wa.me/923704452235?text=I%20want%20to%20order%20College%20Shirt%20Rs%20900">Order on WhatsApp</a>
 </div>
 
-<div class="card">
-College Trousers – Rs 1300 <br>
-<a class="btn" href="https://wa.me/923704452235?text=I%20want%20to%20order%20College%20Trousers%20Rs%201300">Order on WhatsApp</a>
-</div>
-
-<div class="card">
-Blazer – Rs 2000 <br>
-<a class="btn" href="https://wa.me/923704452235?text=I%20want%20to%20order%20Blazer%20Rs%20600">Order on WhatsApp</a>
-</div>
-
-<div class="section">
-    <h2>Contact Us</h2>
-    <p><strong>WhatsApp:</strong> +923704452235</p>
-    <p><strong>Shop Address:</strong> New Anarkali Bazar, Karnal Plaza, Lahore</p>
+<div class="contact">
+<h3>Contact Us</h3>
+<p>📞 +92 370 4452235</p>
+<p>📍 New Anarkali Bazar, Karnal Plaza, Lahore</p>
 </div>
 
 <footer>
-    <p>© 2026 Zafii Uniform Garments</p>
+<p>© 2026 Zafii Uniform Garments</p>
 </footer>
 
 </body>
